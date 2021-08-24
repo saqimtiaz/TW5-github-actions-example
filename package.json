@@ -1,0 +1,27 @@
+{
+  "name": "tw5-github-actions-example",
+  "version": "1.0.0",
+  "description": "Example of using Github actions to build and publish a TiddlyWiki",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/tiddlywiki/tiddlywiki.js . --build index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saqimtiaz/TW5-github-actions-example.git"
+  },
+  "keywords": [
+    "TW5",
+    "TW5-plugins",
+    "TiddlyWiki"
+  ],
+  "author": "Saq Imtiaz",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/saqimtiaz/TW5-github-actions-example/issues"
+  },
+  "homepage": "https://github.com/saqimtiaz/TW5-github-actions-example#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.1.23"
+  }
+}
