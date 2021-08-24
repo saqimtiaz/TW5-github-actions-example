@@ -8,8 +8,8 @@ Starting point: a wiki folder for TiddlyWiki on node.js, being saved to a Github
 In the root of your repository you need to:
 * add a `package.json` file. You can do so via `npm` using `npm init`, or by copying and modifying the `package.json` in this repo.
 * add TiddlyWiki as a dependency `npm install tiddlywiki`
-* Add a script `build` by coping from the `package.json` in this repo and modify it so it corresponds to the command you would need to run in the root of your repository to build the TiddlyWiki. If your `tiddlywiki.info` file is in the repository root, you do not need to modify this.
-  * You can verify that everything works so far by running the command `npm run build`, the wiki HTML file should be saved in the folder `output` in the root of your repository. This can safely be deleted after testing.
+* Add a script `build` by copying from the `package.json` in this repo and modifying it so it corresponds to the command you would need to run in the root of your repository to build the TiddlyWiki. If your `tiddlywiki.info` file is in the repository root, you do not need to modify this.
+  * You can verify that everything works so far by running the command `npm run build`, the wiki HTML file should be saved in the folder `output` in the root of your repository. This folder can safely be deleted after testing.
 * In the root of your repository, copy the `.github` folder from this repository.
 * Add these new files to Git, commit and push to Github.
 * The TiddlyWiki will automatically be built and pushed to your `gh-pages` branch.
